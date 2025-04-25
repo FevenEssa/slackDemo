@@ -18,11 +18,13 @@
     "@sap/cds-dk": "^8"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-slack_demo": "cds watch --open slack_demo/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
     "app/admin-books",
-    "app/browse"
+    "app/browse",
+    "app/slack_demo"
   ],
   "cds": {
     "requires": {
